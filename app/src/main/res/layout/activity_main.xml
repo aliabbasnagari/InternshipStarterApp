@@ -23,6 +23,7 @@
         android:id="@+id/btnShowQuote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_lg"
         android:text="@string/btn_quote_show_text"
         android:textSize="@dimen/text_lg"
         app:layout_constraintEnd_toEndOf="@+id/textView"
