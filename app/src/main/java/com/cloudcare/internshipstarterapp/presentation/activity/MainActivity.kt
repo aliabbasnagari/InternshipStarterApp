@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.cloudcare.internshipstarterapp.R
+import com.cloudcare.internshipstarterapp.data.Quotes
 import com.cloudcare.internshipstarterapp.databinding.ActivityMainBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
@@ -24,10 +25,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnShowQuote.setOnClickListener {
+            val quote = Quotes.getRandomQuote();
             MaterialAlertDialogBuilder(this)
-                .setTitle("Motivation")
-                .setMessage("Stay curious and keep learning.")
-                .setPositiveButton(getString(R.string.app_name)) { dialog, _ ->
+                .setTitle(getString(R.string.quote_alert_title))
+                .setMessage(quote)
+                .setPositiveButton(getString(R.string.btn_quote_dismiss_text)) { dialog, _ ->
                     dialog.dismiss()
                 }
                 .show()

@@ -3,5 +3,8 @@
     <string name="splash_message">Welcome to Internship</string>
     <string name="main_message">Hello, Android Developers!</string>
     <string name="splash_content_description">SplashLogo</string>
-    <string name="btn_quote_text">Show</string>
+    <string name="btn_quote_show_text">Show Quote</string>
+    <string name="quote_alert_title">Your Daily Dose of Wisdom</string>
+    <string name="btn_quote_dismiss_text">Motivated Successfully</string>
+
 </resources>
