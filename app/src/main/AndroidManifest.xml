@@ -13,7 +13,7 @@
         android:theme="@style/Theme.InternshipStarterApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.activity.MainActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.activity.SplashScreenActivity"

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">InternshipStarterApp</string>
-    <string name="splash_message">Hello, Android Developers!</string>
+    <string name="splash_message">Welcome to Internship</string>
+    <string name="main_message">Hello, Android Developers!</string>
     <string name="splash_content_description">SplashLogo</string>
+    <string name="btn_quote_text">Show</string>
 </resources>
